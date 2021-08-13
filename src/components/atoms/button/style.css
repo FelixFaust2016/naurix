@@ -1,0 +1,17 @@
+.general_button {
+  min-width: 169px;
+  background-color: var(--alt_color);
+  border-radius: 8px;
+  border: none;
+  color: var(--white_color);
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.general_button:hover {
+  background-color: var(--btn_hover);
+}

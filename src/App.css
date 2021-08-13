@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  font-size: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --text_color: #6b6b6b;
+  --main_color: #1db3b4;
+  --alt_color: rgba(28, 80, 156, 1);
+  --white_color: rgba(255, 255, 255, 1);
+
+  --btn_hover: rgba(28, 79, 156, 0.486);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: var(--main_color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+  font-size: 3.1rem;
+  line-height: 4.1rem;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  font-weight: 200;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p,
+button {
+  font-family: "Lato", sans-serif;
+  color: var(--text_color);
+}
+
+.big_text {
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+}
+
+.normal_text {
+  font-size: 1rem;
+  line-height: 1.4rem;
 }
