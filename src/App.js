@@ -1,6 +1,6 @@
 import { LandingPage } from "./pages";
 
-import "./app.css";
+import "./App.css";
 
 const App = () => {
   return (
