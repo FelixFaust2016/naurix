@@ -9,7 +9,7 @@ const LandingPage = () => {
           <Navigation />
         </div>
       </section>
-      <section className="landing_banner">
+      <section id="home" className="landing_banner">
         <div className="landing_container">
           <div className="banner_flex">
             <main>
@@ -57,7 +57,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <section className="about">
+      <section id="about" className="about">
         <div className="landing_container">
           <h1>About Us</h1>
           <p style={{ marginTop: "20px" }} className="big_text">
@@ -129,7 +129,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <section className="service_section">
+      <section id="services" className="service_section">
         <div className="landing_container">
           <div className="service_flex">
             <div className="service_flex_text">
@@ -182,7 +182,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <footer className="landing_footer">
+      {/* <footer className="landing_footer">
         <div className="landing_container">
           <div className="footer_flex">
             <main>
@@ -220,7 +220,7 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 };

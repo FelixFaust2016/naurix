@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
+
 import { Button, Logo } from "../../atoms";
 import "./style.css";
 
@@ -16,8 +18,17 @@ const Navigation = () => {
         />
         <Logo />
         <div className="spacer" />
-        <p>Our Story</p>
-        <p>Services</p>
+        <p>
+          <Link to="about" smooth={true} duration={500}>
+            Our Story
+          </Link>
+        </p>
+        <p>
+          {" "}
+          <Link to="services" smooth={true} duration={500}>
+            Services
+          </Link>
+        </p>
         <Button label={"Work with us"} width={"174px"} />
       </nav>
       <div
@@ -32,8 +43,16 @@ const Navigation = () => {
           src={"/assets/close.svg"}
           alt={""}
         />
-        <p>Our Story</p>
-        <p>Services</p>
+        <p>
+          <Link to="about" smooth={true} duration={500}>
+            Our Story
+          </Link>
+        </p>
+        <p>
+          <Link to="services" smooth={true} duration={500}>
+            Services
+          </Link>
+        </p>
       </div>
     </>
   );
